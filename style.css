@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'RobotoCondensed' ;
+    src: url("./RobotoCondensed-Regular.ttf");
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family:'RobotoCondensed';
+}
+
+.nav-bar {
+    padding-top: 2rem;
+    width: 100%;
+    background-color: rgba(255, 229, 197, 0.856);
+    
+    
+}
+
+.nav-text { 
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 1.5rem;
+}
+
+.nav-links {
+    text-align: center;
+    justify-content: space-around;
+    padding: 0.5rem 0.5rem;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 1.5rem;
+    background-color: rgba(255, 255, 255, 0);
+    
+    
+}
+
+.intro-box { 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 5px;
+    margin-inline: auto;
+}
+
+.intro-text {
+    text-align: left;
+    font-size: 23px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.aboutme-text {
+    font-size: 21px;
+}
+/*
+    Grid Example
+*/
+
+.grid {
+    display: grid; /* display: controls the display type eg., grid / flex */
+    grid-template-columns: 200px 1fr; /* controls the column widths and quantity of column */
+    grid-auto-rows: 1fr;
+    width: min(1200px, 90%);
+    margin-inline: auto;
+    gap: 1rem;
+    padding-top: 1.5rem;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/*
+    Grid Example End
+*/
+
+.image-me {
+    width:100%;
+    aspect-ratio: 1/1;
+    padding-left: 1%;
+   
+
+}
+.image-aboutme {
+    width:500px;
+    display: flex;
+    flex-direction: row;
+    }
+
+.image-home {
+    display: flex;
+    justify-content: space-between;
+    width: 925px;
+    margin-inline: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(182, 182, 182);
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem 0;
+    
+}   
+
+.socials {
+    display: flex;
+    flex-direction: column;
+}
+
+.footheads {
+    font-size: 18px;
+    font-weight: 600;
+}
+.footwords {
+    font-size: 15px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(0, 0, 0)
+}
+
+/* Shop images and grid here*/
+
+.grid-shop {
+    width: min(1600px, 90%);
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.shop-image {
+    width: 80%; 
+    justify-content: center;
+    height: 100% 
+}
+
+
+.grid-left {
+    display: grid;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    grid-template-columns: 2;
+}
