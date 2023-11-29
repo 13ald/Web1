@@ -24,13 +24,12 @@ body {
     font-size: 25px;
     font-weight: bold;
     color: rgb(0, 0, 0);
-    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .nav-links {
     text-align: center;
     justify-content: space-around;
-    padding: 0.5rem 0.5rem;
     background-color: rgba(0, 0, 225, 0.856);
     margin: 0.5rem;
 }
