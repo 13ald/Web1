@@ -31,6 +31,8 @@ body {
     text-align: center;
     justify-content: space-around;
     padding: 0.5rem 0.5rem;
+    background-color: rgba(0, 0, 225, 0.856);
+    margin: 0.5rem;
 }
 
 
